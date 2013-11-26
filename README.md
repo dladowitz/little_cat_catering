@@ -1,1 +1,1 @@
-Little Cats in Chef Hats. What else where you expecting?
+Little cats in chef cats. What else where you expecting?
