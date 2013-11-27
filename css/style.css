@@ -290,16 +290,16 @@ header h1 {
 	padding-right: 60px;
 	position: relative;
 	z-index: 910;
-	margin-bottom: 29px;
+	/*margin-bottom: 29px;*/
 	text-align: center;
 }
 header h1 a {
 	display: inline-block;
 	overflow: hidden;
-	width: 395px;
+	/*width: 395px;*/
+	/*height: 51px;*/
 	font-size: 0;
 	line-height: 0;
-	height: 51px;
 	text-indent: -999px;
 	transition: 0s ease;
 	-o-transition: 0s ease;
