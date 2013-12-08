@@ -28,9 +28,9 @@ body {
 }
 
 
-	strong {
-		font-weight: 700;
-	}
+strong {
+	font-weight: 700;
+}
 
 address {
 	font-style: normal;
@@ -82,6 +82,11 @@ h3 {
 	line-height: 60px;
 }
 
+h3#pricing-head {
+	font-size: 35;
+	margin-bottom: 0px;
+}
+
 h3.head2 {
 	padding-top: 52px;
 	margin-bottom: 21px;
@@ -105,6 +110,17 @@ h4 {
 	margin-bottom: 45px;
 	font-weight: normal;
 	text-transform: none;
+}
+
+h4#pricing-text {
+	padding-top: 0px;
+	color: gray;
+}
+
+#contact li {
+	display: inline;
+	padding: 10px;
+	font-size: 17px
 }
 
 /****Lists****/
@@ -315,7 +331,7 @@ header h2+span {
 	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
 	color: #6e757a;
 	padding: 0 170px 0 130px;
-	font-size: 15px;
+	font-size: 19px;
 	line-height: 23px;
 }
 
@@ -509,7 +525,7 @@ background-color: #fff;
 }
 
 .bottom_block address {
-	margin-bottom: 28px;
+	margin-bottom: 5px;
 }
 
 .st1 time {
@@ -529,8 +545,9 @@ background-color: #fff;
 }
 
 a.mail {
-	padding-left: 32px;
+	padding-left: 29px;
 	background: url(../images/mail.png) 0 3px no-repeat;
+	text-transform: none;
 }
 
 a.ns_link {
@@ -704,6 +721,8 @@ footer {
     outline: none;
     background-position: right 0;
 }
+
+
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 
 
